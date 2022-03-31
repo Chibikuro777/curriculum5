@@ -3,6 +3,7 @@ body {
     background-position: center;
     background-color: #000;
     color: #fff;
+    font-size: large;
   }
   
   .navbar-laravel {
@@ -16,8 +17,21 @@ body {
   
   .nav-link {
     color: #fff !important;
+    text-decoration: none;
   }
   
+  .navbar-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+  }
+
+  .nav-item{
+    display: flex;
+    flex-direction: column;
+  }
+
   .table-dark {
     color: #fff;
   }
@@ -38,3 +52,36 @@ body {
   .login-body {
     background-color: rgba(0, 0, 0, 0.25);
   }
+
+  .dropdown-item {
+    padding: 0 20%;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.0);
+    background: white;
+    border-radius: 4px;
+}
+
+.login-header{
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.login-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-primary{
+  color: #fff;
+  background-color: rgb(92, 149, 247);
+  border: none;
+  border-radius: 5%;
+  padding: 5% 20%;
+  cursor: pointer;
+}
+
+.checkbox{
+  margin-bottom: 5%;
+}
