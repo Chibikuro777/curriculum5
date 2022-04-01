@@ -5,6 +5,11 @@ body {
     color: #fff;
     font-size: large;
   }
+
+  .container-create, .container_login{
+    width: 50%;
+    margin: 0 auto;
+  }
   
   .navbar-laravel {
     background-color: #000;
@@ -73,7 +78,7 @@ body {
   align-items: center;
 }
 
-.btn-primary{
+.button_login{
   color: #fff;
   background-color: rgb(92, 149, 247);
   border: none;
@@ -82,6 +87,29 @@ body {
   cursor: pointer;
 }
 
+.button_renew{
+  color: #fff;
+  background-color: rgb(92, 149, 247);
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+  padding: 1% 2%;
+}
+
 .checkbox{
   margin-bottom: 5%;
+}
+
+.input_display{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1%;
+}
+
+.input_field{
+  width: 80%;
+}
+
+.form-control{
+  width:100%;
 }
