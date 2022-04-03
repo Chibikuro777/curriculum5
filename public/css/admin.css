@@ -6,7 +6,7 @@ body {
     font-size: large;
   }
 
-  .container-create, .container_login{
+  .container-create, .container_login, .container-index{
     width: 50%;
     margin: 0 auto;
   }
@@ -85,7 +85,9 @@ body {
   border-radius: 5%;
   padding: 5% 20%;
   cursor: pointer;
+  text-decoration: none;
 }
+
 
 .button_renew{
   color: #fff;
@@ -94,6 +96,30 @@ body {
   cursor: pointer;
   border-radius: 5%;
   padding: 1% 2%;
+  text-decoration: none;
+}
+
+.button_create{
+  color: #fff;
+  background-color: rgb(92, 149, 247);
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+  padding: 1% 5%;
+  text-decoration: none;
+}
+
+.button_search{
+  color: #fff;
+  background-color: rgb(92, 149, 247);
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+  text-decoration: none;
+}
+
+.width_size{
+  width: 100%;
 }
 
 .checkbox{
@@ -112,4 +138,13 @@ body {
 
 .form-control{
   width:100%;
+}
+
+.search_row, .title_search_row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.search_row{
+  justify-content: space-between;
 }
