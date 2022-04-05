@@ -6,7 +6,7 @@ body {
     font-size: large;
   }
 
-  .container-create, .container_login, .container-index{
+  .container-create, .container_login, .container-index, .container_edit{
     width: 50%;
     margin: 0 auto;
   }
